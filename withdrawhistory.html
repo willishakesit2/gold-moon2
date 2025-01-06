@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <title>K-Miracle</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>K-Miracle</title>
+        <link rel="apple-touch-icon" href="assets/images/favicon/km-logo.png">
+        <link rel="icon" type="image/png" href="assets/images/favicon/km-logo.png">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style2.css">
+        <link rel="stylesheet" href="assets/css/mobile.css">
+        <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.vticker.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.number.min.js"></script>
+        <script type="text/javascript" src="assets/js/layout.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper affix">
+            <nav class="nav-section w-ba">
+				<div class="h-100">
+					<div class="km-logo-wrapper">
+						<div class="km-logo">
+							<a href="index.html">
+								<img class="new-logo" src="assets/images/newlogo/mama-Casino-logo.png">
+							</a>
+						</div>
+						<span class="logo-title">Casino</span>
+					</div>
+					<ul class="bs-ul main-menu sidebar-left">
+						<li> <a href="deposit.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="deposit-link dflex-ac-js w-ba"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a> </li>
+						<li> <a href="withdraw.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="withdraw-link dflex-ac-js w-ba"><i class="fa-solid fa-vault"></i> 출금신청</a> </li>
+						<li> <a href="event.html" class="event-link dflex-ac-js w-ba"><i class="fa-solid fa-martini-glass-citrus"></i> 이벤트</a> </li>
+						<li> <a href="notice.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="notice-link dflex-ac-js w-ba"><i class="fa-solid fa-bell"></i> 공지사항</a> </li>
+						<li> <a href="customerservice.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="faq-link dflex-ac-js w-ba"><i class="fa-solid fa-comment-dots"></i> 고객센터</a> </li>
+						<!-- <li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="deposit-link dflex-ac-jc w-ba"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="withdraw-link dflex-ac-jc w-ba"><i class="fa-solid fa-vault"></i> 출금신청</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="event-link dflex-ac-jc w-ba"><i class="fa-solid fa-martini-glass-citrus"></i> 이벤트</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="notice-link dflex-ac-jc w-ba"><i class="fa-solid fa-bell"></i> 공지사항</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="faq-link dflex-ac-jc w-ba"><i class="fa-solid fa-comment-dots"></i> 고객센터</a> </li> -->
+					</ul>
+				</div>
+			</nav>
+			<div class="top-bar dflex-ac-je side-width">
+				<div class="before-login active w-100">
+					<div class="desktop">
+						<div class="dflex-ac-je">
+							<div class="input-panel dflex-ac-jc">
+								<div class="icon-panel dflex-ac-jc"> <i class="fas fa-user-tie" aria-hidden="true"></i> </div>
+								<input type="text" placeholder="아이디" name="mb_login_id" autocomplete="off">
+							</div>
+							<div class="input-panel dflex-ac-jc">
+								<div class="icon-panel dflex-ac-jc"> <i class="fas fa-unlock-alt" aria-hidden="true"></i> </div>
+								<input type="password" placeholder="비밀번호" name="password" autocomplete="off">
+							</div>
+							<button type="submit" class="btn-yellow login-btn">로그인</button>
+							<button type="button" class="btn-red join-link">회원가입</button>
+						</div>
+					</div>
+					<div class="menu-toggle d-none align-items-center justify-content-between w-100">
+						<div class="d-flex align-items-center">
+							<img class="sm-logo" src="assets/images/newlogo/mama-Casino-logo.png">
+							<span class="logo-text">Casino</span>
+						</div>
+						<i class="fa-solid fa-bars showSideNav"></i>
+					</div>
+				</div>
+			</div>
+			<div class="banner-wrapper side-width float-right">
+				<section class="banner-section w-ba">
+                    <img class="border-tl" src="assets/images/corners/corner.png">
+                    <img class="border-tr" src="assets/images/corners/corner.png">
+                    <img class="border-bl" src="assets/images/corners/corner.png">
+                    <img class="border-br" src="assets/images/corners/corner.png">
+					<img class="banner-bg" src="assets/images/bg/banner-bg.jpg">
+					<div class="container h-100 dflex-ac-jc">
+						<div class="h-100 w-100">
+							<div class="banner-carousel carousel dflex-ac-js align-content-center w-ba" data-ride="carousel" data-pause="false" data-interval="6000">
+								<div class="carousel-inner w-50">
+									<div class="carousel-item active">
+										<div class="text-panel w-ba">
+											<h1 class="mb-md-1 mb-0"><span class="font-bold">첫충</span>10%/<span class="font-bold">매충</span> 5% </h1>
+											<h2 class="mb-md-1 mb-0 font-bold">최대 100만원 지급</h2>
+											<h2 class="mb-md-1 mb-0 font-bold">보너스무제한지급</h2>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="text-panel w-ba">
+											<h1 class="mb-md-1 mb-0"><span class="font-bold">페이백</span>5% ~ 10%</h1>
+											<h2 class="mb-md-1 mb-0 font-bold">최대 100만원 까지</h2>
+											<h2 class="mb-md-1 mb-0 font-bold">고객센터 문의</h2>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="text-panel w-ba">
+											<h1 class="mb-md-1 mb-0">신규가입 이벤트</h1>
+											<h2 class="mb-md-1 mb-0 font-bold">5+3,15+5,50+10,100+20,300+50 롤링300%</h2>
+											<h2 class="mb-md-1 mb-0 font-bold">롤링포인트 0.2~0.75%</h2>
+										</div>
+									</div>
+								</div>
+								<ol class="carousel-indicators dflex-ac-js">
+									<li data-target=".banner-carousel" data-slide-to="0" class="active"></li>
+									<li data-target=".banner-carousel" data-slide-to="1" class=""></li>
+									<li data-target=".banner-carousel" data-slide-to="2" class=""></li>
+								</ol>
+							</div>
+						</div>
+						<div class="banner-background w-ba">
+							<div class="light"> <img src="assets/images/banner/light.png"> </div>
+							<img class="girl-left" src="assets/images/banner/girl-left.png">
+							<img class="girl-right" src="assets/images/banner/girl-right.png">
+							<img class="girl-center" src="assets/images/banner/girl-center.png">
+							<div class="glow-right"> <img src="assets/images/banner/glow-right.png"> </div>
+							<img class="candy-slot" src="assets/images/banner/candy-slot.png">
+							<img class="money-slot" src="assets/images/banner/money-slot.png">
+							<img class="light-2" src="assets/images/banner/light-3.png">
+							<img class="light-3" src="assets/images/banner/light-3.png">
+						</div>
+					</div>
+				</section>
+			</div>
+            <main class="page-content w-ba float-right side-width">
+                <section class="toggle-section">
+                    <div class="container dflex-ac-jc">
+                        <div class="page-header">
+                            <div class="bg"></div>
+                            <div class="page-text">
+                                <span>나의 정보</span>
+                                <span>나의 정보</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="my-tab">
+                    <ul class="my-tab-list">
+                        <li class="my-tab-item">
+                            <a class="active" href="">
+                                <div class="icon"><i class="fas fa-user-tie"></i></div> <span>나의 정보</span>
+                            </a>
+                        </li>
+                        <li class="my-tab-item">
+                            <a class="" href="inquiry.html">
+                                <div class="icon"><i class="fa-solid fa-envelope"></i></div> <span>쪽지</span>
+                            </a>
+                        </li>
+                        <li class="my-tab-item">
+                            <a class="" href="password.html">
+                                <div class="icon"><i class="fa-solid fa-lock"></i></div> <span>비밀번호변경</span>
+                            </a>
+                        </li>
+                        <li class="my-tab-item">
+                            <a class="" href="coupon.html">
+                                <div class="icon"><i class="fa-solid fa-tags"></i></div> <span>쿠폰상자</span>
+                            </a>
+                        </li>
+                        <li class="my-tab-item">
+                            <a class="" href="#">
+                                <div class="icon"><i class="fa-solid fa-arrows-rotate"></i></div> <span>콤프전환</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="history">
+                    <div class="container">
+                        <div class="history-wrapper">
+                            <div class="history-content">
+                                
+                                <div class="history-table">
+                                    <img class="border-tl" src="assets/images/corners/corner.png">
+                                    <img class="border-tr" src="assets/images/corners/corner.png">
+                                    <img class="border-bl" src="assets/images/corners/corner.png">
+                                    <img class="border-br" src="assets/images/corners/corner.png">
+                                    <div class="header d-flex align-items-center">
+                                        <div class="back">
+                                            <a href="mypage.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.956" height="12.884" viewBox="0 0 7.956 12.884">
+                                                    <defs>
+                                                        <linearGradient id="linear-gradient" x1="-0.089" y1="0.466" x2="1.042" y2="0.509" gradientUnits="objectBoundingBox">
+                                                            <stop offset="0.008" stop-color="#c08d3e"></stop>
+                                                            <stop offset="0.341" stop-color="#f2d267"></stop>
+                                                            <stop offset="0.448" stop-color="#fbf7b4"></stop>
+                                                            <stop offset="0.557" stop-color="#e0d496"></stop>
+                                                            <stop offset="0.703" stop-color="#cca452"></stop>
+                                                            <stop offset="0.869" stop-color="#8a5e28"></stop>
+                                                            <stop offset="1" stop-color="#70461c"></stop>
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <path id="prev-arrow" d="M58.956,45.014,57.442,43.5,51,49.942l6.442,6.442,1.514-1.514-4.917-4.928Z" transform="translate(-51 -43.5)" fill="#ceac45" />
+                                                </svg>
+                                                <span>Back</span>
+                                            </a>
+                                        </div>
+                                        <div class="title"> </div>
+                                        <div class="date"></div>
+                                        <a href="deposithistory.html" class="btn btn-red ml-auto">입금내역</a>
+                                        <a href="withdrawhistory.html" class="btn btn-yellow ml-1">출금내역</a>
+                                    </div>
+                                    <table class="mt-3 w-100">
+                                        <thead>
+                                            <tr>
+                                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">일자</th>
+                                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">금액</th>
+                                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">처리</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="processing">
+                                                <td>05/02/2022</td>
+                                                <td>1,000,000</td>
+                                                <td class="status">Processing</td>
+                                            </tr>
+                                            <tr class="cancel">
+                                                <td>05/02/2022</td>
+                                                <td>1,000,000</td>
+                                                <td class="status">Cancel</td>
+                                            </tr>
+                                            <tr class="complete">
+                                                <td>05/02/2022</td>
+                                                <td>1,000,000</td>
+                                                <td class="status">Complete</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="pagination-new">
+                                        <div class="prev">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.956" height="12.884" viewBox="0 0 7.956 12.884">
+                                                    <defs>
+                                                        <linearGradient id="linear-gradient" x1="-0.089" y1="0.466" x2="1.042" y2="0.509" gradientUnits="objectBoundingBox">
+                                                            <stop offset="0.008" stop-color="#c08d3e" />
+                                                            <stop offset="0.341" stop-color="#f2d267" />
+                                                            <stop offset="0.448" stop-color="#fbf7b4" />
+                                                            <stop offset="0.557" stop-color="#e0d496" />
+                                                            <stop offset="0.703" stop-color="#cca452" />
+                                                            <stop offset="0.869" stop-color="#8a5e28" />
+                                                            <stop offset="1" stop-color="#70461c" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <path id="prev-arrow" d="M58.956,45.014,57.442,43.5,51,49.942l6.442,6.442,1.514-1.514-4.917-4.928Z" transform="translate(-51 -43.5)" fill="#ceac45" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <ul class="pages">
+                                            <li class="page-number active"><a href="#"><span>1</span></a></li>
+                                            <li class="page-number"><a href="#"><span>2</span></a></li>
+                                            <li class="page-number"><a href="#"><span>3</span></a></li>
+                                        </ul>
+                                        <div class="next">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.956" height="12.884" viewBox="0 0 7.956 12.884">
+                                                    <defs>
+                                                        <linearGradient id="linear-gradient" x1="-0.089" y1="0.466" x2="1.042" y2="0.509" gradientUnits="objectBoundingBox">
+                                                            <stop offset="0.008" stop-color="#c08d3e" />
+                                                            <stop offset="0.341" stop-color="#f2d267" />
+                                                            <stop offset="0.448" stop-color="#fbf7b4" />
+                                                            <stop offset="0.557" stop-color="#e0d496" />
+                                                            <stop offset="0.703" stop-color="#cca452" />
+                                                            <stop offset="0.869" stop-color="#8a5e28" />
+                                                            <stop offset="1" stop-color="#70461c" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <path id="next-arrow" d="M73,54.87l1.514,1.514,6.442-6.442L74.514,43.5,73,45.014l4.917,4.928Z" transform="translate(-73 -43.5)" fill="#ceac45" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer-section w-ba side-width float-right">
+				<div class="container">
+					<div class="d-flex align-items-center">
+						<div class="provider-logo">
+							<div class="slider">
+								<div class="slide-track">
+									<div class="slide">
+										<img src="assets/images/provider/logo/ag.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/microgaming.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/evolution.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/pragmatic.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/oriental.png">
+									</div>
+									<div class="slide">
+										<img class="no-shadow" src="assets/images/provider/logo/sexygaming.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/dreamgaming.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/cq9.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/bng.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/habanero.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/netent.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/redtiger.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/evoplay.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/gameplay.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/playngo.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/genesis.png">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copyright d-flex align-items-center justify-content-between">
+					<p>ⓒ COPYRIGHT K-MIRACLE Casino 2022 ALL RIGHTS RESERVED.</p>
+				</div>
+			</footer>
+            <div class="sn-overlay"></div>
+            <button class="scroll-top w-ba"><i class="fas fa-caret-up" aria-hidden="true"></i></button>
+        </div>
+    </body>
+
+</html>

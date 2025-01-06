@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+		<title>K-Miracle</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="apple-touch-icon" href="assets/images/favicon/km-logo.png">
+		<link rel="icon" type="image/png" href="assets/images/favicon/km-logo.png">
+		<link rel="stylesheet" href="assets/css/all.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/style2.css">
+		<link rel="stylesheet" href="assets/css/mobile.css">
+		<script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.vticker.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.number.min.js"></script>
+		<script type="text/javascript" src="assets/js/layout.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper affix">
+			<nav class="nav-section w-ba">
+				<div class="h-100">
+					<div class="km-logo-wrapper">
+						<div class="km-logo">
+							<a href="index.html">
+								<img class="new-logo" src="assets/images/newlogo/mama-Casino-logo.png">
+							</a>
+						</div>
+						<span class="logo-title">Casino</span>
+					</div>
+					<ul class="bs-ul main-menu sidebar-left">
+						<li> <a href="deposit.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="deposit-link dflex-ac-js w-ba"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a> </li>
+						<li> <a href="withdraw.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="withdraw-link dflex-ac-js w-ba"><i class="fa-solid fa-vault"></i> 출금신청</a> </li>
+						<li> <a href="event.html" class="event-link dflex-ac-js w-ba"><i class="fa-solid fa-martini-glass-citrus"></i> 이벤트</a> </li>
+						<li> <a href="notice.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="notice-link dflex-ac-js w-ba"><i class="fa-solid fa-bell"></i> 공지사항</a> </li>
+						<li> <a href="customerservice.html" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="faq-link dflex-ac-js w-ba"><i class="fa-solid fa-comment-dots"></i> 고객센터</a> </li>
+						<!-- <li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="deposit-link dflex-ac-jc w-ba"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="withdraw-link dflex-ac-jc w-ba"><i class="fa-solid fa-vault"></i> 출금신청</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="event-link dflex-ac-jc w-ba"><i class="fa-solid fa-martini-glass-citrus"></i> 이벤트</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="notice-link dflex-ac-jc w-ba"><i class="fa-solid fa-bell"></i> 공지사항</a> </li>
+						<li> <a href="javascript:void(0);" onclick="alertify.alert('알림', '로그인이 필요합니다')" class="faq-link dflex-ac-jc w-ba"><i class="fa-solid fa-comment-dots"></i> 고객센터</a> </li> -->
+					</ul>
+				</div>
+			</nav>
+			<div class="top-bar dflex-ac-je side-width">
+				<div class="before-login active w-100">
+					<div class="desktop">
+						<div class="dflex-ac-je">
+							<div class="input-panel dflex-ac-jc">
+								<div class="icon-panel dflex-ac-jc"> <i class="fas fa-user-tie" aria-hidden="true"></i> </div>
+								<input type="text" placeholder="아이디" name="mb_login_id" autocomplete="off">
+							</div>
+							<div class="input-panel dflex-ac-jc">
+								<div class="icon-panel dflex-ac-jc"> <i class="fas fa-unlock-alt" aria-hidden="true"></i> </div>
+								<input type="password" placeholder="비밀번호" name="password" autocomplete="off">
+							</div>
+							<button type="submit" class="btn-yellow login-btn">로그인</button>
+							<button type="button" class="btn-red join-link">회원가입</button>
+						</div>
+					</div>
+					<div class="menu-toggle d-none align-items-center justify-content-between w-100">
+						<div class="d-flex align-items-center">
+							<img class="sm-logo" src="assets/images/newlogo/mama-Casino-logo.png">
+							<span class="logo-text">Casino</span>
+						</div>
+						<i class="fa-solid fa-bars showSideNav"></i>
+					</div>
+				</div>
+			</div>
+			<div class="banner-wrapper side-width float-right">
+				<section class="banner-section w-ba">
+					<img class="border-tl" src="assets/images/corners/corner.png">
+					<img class="border-tr" src="assets/images/corners/corner.png">
+					<img class="border-bl" src="assets/images/corners/corner.png">
+					<img class="border-br" src="assets/images/corners/corner.png">
+					<img class="banner-bg" src="assets/images/bg/banner-bg.jpg">
+					<div class="container h-100 dflex-ac-jc">
+						<div class="h-100 w-100">
+							<div class="banner-carousel carousel dflex-ac-js align-content-center w-ba" data-ride="carousel" data-pause="false" data-interval="6000">
+								<div class="carousel-inner w-50">
+									<div class="carousel-item active">
+										<div class="text-panel w-ba">
+											<h1 class="mb-md-1 mb-0"><span class="font-bold">첫충</span>10%/<span class="font-bold">매충</span> 5% </h1>
+											<h2 class="mb-md-1 mb-0 font-bold">최대 100만원 지급</h2>
+											<h2 class="mb-md-1 mb-0 font-bold">보너스무제한지급</h2>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="text-panel w-ba">
+											<h1 class="mb-md-1 mb-0"><span class="font-bold">페이백</span>5% ~ 10%</h1>
+											<h2 class="mb-md-1 mb-0 font-bold">최대 100만원 까지</h2>
+											<h2 class="mb-md-1 mb-0 font-bold">고객센터 문의</h2>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="text-panel w-ba">
+											<h1 class="mb-md-1 mb-0">신규가입 이벤트</h1>
+											<h2 class="mb-md-1 mb-0 font-bold">5+3,15+5,50+10,100+20,300+50 롤링300%</h2>
+											<h2 class="mb-md-1 mb-0 font-bold">롤링포인트 0.2~0.75%</h2>
+										</div>
+									</div>
+								</div>
+								<ol class="carousel-indicators dflex-ac-js">
+									<li data-target=".banner-carousel" data-slide-to="0" class="active"></li>
+									<li data-target=".banner-carousel" data-slide-to="1" class=""></li>
+									<li data-target=".banner-carousel" data-slide-to="2" class=""></li>
+								</ol>
+							</div>
+						</div>
+						<div class="banner-background w-ba">
+							<div class="light"> <img src="assets/images/banner/light.png"> </div>
+							<img class="girl-left" src="assets/images/banner/girl-left.png">
+							<img class="girl-right" src="assets/images/banner/girl-right.png">
+							<img class="girl-center" src="assets/images/banner/girl-center.png">
+							<div class="glow-right"> <img src="assets/images/banner/glow-right.png"> </div>
+							<img class="candy-slot" src="assets/images/banner/candy-slot.png">
+							<img class="money-slot" src="assets/images/banner/money-slot.png">
+							<img class="light-2" src="assets/images/banner/light-3.png">
+							<img class="light-3" src="assets/images/banner/light-3.png">
+						</div>
+					</div>
+				</section>
+			</div>
+			<main class="page-content side-width float-right w-ba">
+				<section class="toggle-section">
+					<div class="container dflex-ac-jc">
+						<div class="page-header">
+							<div class="bg"></div>
+							<div class="page-text">
+								<span>회원가입</span>
+								<span>회원가입</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="register">
+					<div class="container">
+						<form id="signUpForm" method="post">
+							<div class="register-wrapper">
+								<img class="border-tl" src="assets/images/corners/corner.png">
+								<img class="border-tr" src="assets/images/corners/corner.png">
+								<img class="border-bl" src="assets/images/corners/corner.png">
+								<img class="border-br" src="assets/images/corners/corner.png">
+								<div class="register-content">
+									<div class="content content-bg  row">
+										<div class="col-12 col-md-6">
+											<div class="form-container">
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>아이디</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input class="" id="mb_login_id_signup" placeholder="6자이상 영문, 숫자만 가능" autocomplete="off" name="mb_login_id" type="text" value="">
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>이름</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input class="" id="mb_player_name" placeholder="2자이상 한글,영문만 가능(예금주와 동일해야 함)" autocomplete="off" name="mb_name1" type="text" value="">
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>닉네임</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input class="form-control " placeholder="2자이상 한글,영문만 가능" autocomplete="off" name="mb_nick" type="text" value="">
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>비밀번호</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input class="form-control " id="password2" maxlength="12" autocomplete="off" name="password" type="password" value="">
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>비밀번호확인</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input class="form-control " autocomplete="off" name="password_confirm" type="password" value="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6">
+											<div class="form-container">
+												<div class="form-group w-btn">
+													<div class="labels w-ba">
+														<span>전화번호</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input class="form-control" id="mb_tel" placeholder="'-'없이 숫자 만 입력" autocomplete="off" name="mb_tel" type="text" value="">
+														</div>
+														<button type="button" class="form-btn">인증받기</button>
+													</div>
+												</div>
+												<div class="form-group w-btn">
+													<div class="labels w-ba">
+														<span>인증번호</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input class="form-control" autocomplete="off" placeholder="문자 미수신 시 관리자문의" name="certify_number" type="text" value="">
+														</div>
+														<button type="button" class="form-btn">인증확인</button>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>은행명</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<div class="select-input">
+																<select id="mb_bank_name" class="form-control " name="mb_bank_name">
+																	<option value="" selected="selected">선택하세요.</option>
+																	<option value="KB국민은행">KB국민은행</option>
+																	<option value="신한은행">신한은행</option>
+																	<option value="우리은행">우리은행</option>
+																	<option value="KEB하나은행">KEB하나은행</option>
+																	<option value="카카오뱅크">카카오뱅크</option>
+																	<option value="카카오증권">카카오증권</option>
+																	<option value="KDB산업은행">KDB산업은행</option>
+																	<option value="IBK기업은행">IBK기업은행</option>
+																	<option value="NH농협은행">NH농협은행</option>
+																	<option value="수협은행">수협은행</option>
+																	<option value="대구은행">대구은행</option>
+																	<option value="BNK부산은행">BNK부산은행</option>
+																	<option value="BNK경남은행">BNK경남은행</option>
+																	<option value="광주은행">광주은행</option>
+																	<option value="전북은행">전북은행</option>
+																	<option value="제주은행">제주은행</option>
+																	<option value="농·축협">농·축협</option>
+																	<option value="농협">농협</option>
+																	<option value="축협">축협</option>
+																	<option value="새마을금고">새마을금고</option>
+																	<option value="우체국">우체국</option>
+																	<option value="신용협동조합">신용협동조합</option>
+																	<option value="산림조합">산림조합</option>
+																	<option value="HSBC은행">HSBC은행</option>
+																	<option value="한국씨티은행">한국씨티은행</option>
+																	<option value="한국스탠다드차타드은행">한국스탠다드차타드은행</option>
+																	<option value="신한금융투자">신한금융투자</option>
+																	<option value="하나금융투자">하나금융투자</option>
+																	<option value="DB금융투자">DB금융투자</option>
+																	<option value="유안타증권">유안타증권</option>
+																	<option value="한국투자증권">한국투자증권</option>
+																	<option value="상호저축은행중앙회">상호저축은행중앙회</option>
+																	<option value="미래애셋">미래에셋</option>
+																	<option value="삼성증권">삼성증권</option>
+																	<option value="SC제일은행">SC제일은행</option>
+																	<option value="키움증권">키움증권</option>
+																</select>
+																<i class="fas fa-caret-down" aria-hidden="true"></i>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>계좌번호</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input id="mb_bank_account" class="form-control " placeholder="'-'없이 숫자 만 입력" autocomplete="off" name="mb_bank_account" type="text" value="">
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="labels w-ba">
+														<span>예금주</span>
+													</div>
+													<div class="infos">
+														<div class="input-container">
+															<input id="mb_account_name" class="form-control" placeholder="2자이상 한글, 영문만 가능(예금주는 수정불가/고객센터문의)" autocomplete="off" name="mb_account_name" type="text" value="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-footer dflex-ac-jc">
+								<button type="submit" class="btn-red">회원가입</button>
+								<button type="button" class="btn-yellow login-link">로그인</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</main>
+			<footer class="footer-section w-ba side-width float-right">
+				<div class="container">
+					<div class="d-flex align-items-center">
+						<div class="provider-logo">
+							<div class="slider">
+								<div class="slide-track">
+									<div class="slide">
+										<img src="assets/images/provider/logo/ag.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/microgaming.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/evolution.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/pragmatic.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/oriental.png">
+									</div>
+									<div class="slide">
+										<img class="no-shadow" src="assets/images/provider/logo/sexygaming.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/dreamgaming.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/cq9.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/bng.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/habanero.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/netent.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/redtiger.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/evoplay.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/gameplay.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/playngo.png">
+									</div>
+									<div class="slide">
+										<img src="assets/images/provider/logo/genesis.png">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copyright d-flex align-items-center justify-content-between">
+					<p>ⓒ COPYRIGHT K-MIRACLE Casino 2022 ALL RIGHTS RESERVED.</p>
+				</div>
+			</footer>
+			<div class="sn-overlay"></div>
+			<button class="scroll-top w-ba"><i class="fas fa-caret-up" aria-hidden="true"></i></button>
+		</div>
+	</body>
+
+</html>

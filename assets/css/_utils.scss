@@ -1,0 +1,61 @@
+.gap-lg{
+    gap: 30px;
+}
+.gap-md{
+    gap: 20px;
+}
+.gap-sm{
+    gap: 10px;
+}
+
+.line1
+{
+    position: absolute;
+    top: -90%;
+    left: -30%;
+	stroke-dasharray:800;
+	stroke-dashoffset:2300;
+	animation: dash 20s linear infinite;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.line2
+{
+    position: absolute;
+    bottom: -80%;
+    left: auto;
+    right: -5%;
+	stroke-dasharray:800;
+	stroke-dashoffset:2300;
+	animation: dash 20s linear infinite;
+    opacity: 0.2;
+    z-index: -1;
+}
+.line3
+{
+    position: absolute;
+    top: 30%;
+    left: -30%;
+	stroke-dasharray:800;
+	stroke-dashoffset:2300;
+	animation: dash 20s linear infinite;
+    opacity: .2;
+    z-index: -1;
+}
+.line4
+{
+    position: absolute;
+    top: -20%;
+    left: -10%;
+	stroke-dasharray:800;
+	stroke-dashoffset:2300;
+	animation: dash 15s linear infinite;
+    opacity: .4;
+    z-index: -1;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
